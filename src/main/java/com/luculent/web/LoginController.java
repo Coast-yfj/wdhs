@@ -18,9 +18,13 @@ public class LoginController {
     public String hello() {
         return "index";
     }
+
     @RequestMapping("/login")
     public String login() {
         return "login";
     }
-
+   @RequestMapping("/index")
+    public  String home(){
+        return "index";
+    }
 }
